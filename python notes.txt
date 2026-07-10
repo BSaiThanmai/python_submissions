@@ -1,0 +1,261 @@
+NOTES :
+PYTHON : 
+-->It is a Programming Language.
+
+Language : IT is a medium to communicate with system.
+
+Program : Set of instructions.
+
+-->Set of instructions used to perform a specific task by using a medium.
+
+WhY python :
+-->easy syntax 
+-->user-friendly
+
+FEATURES :
+-->Python is a HIGH-LEVEL PROGRAMMING LANGUAGE.
+-->Python is DYNAMICALLY TYPED LANGUAGE.
+c--> int a=10
+a=10
+-->SIMPLE SYNTAX
+-->PYTHON IS AN INTERPRETED LANGUAGE
+--> PYTHON Supports OOPS.
+-->SUPPORTS HUGE LIBRARIES.
+--> PLATFORM INDEPENDENT.
+--> COMMUNITY SUPPORT.
+
+
+WHERE PYTHON ?
+-SOFTWARE development
+-AI DEVELOPMENT
+-WEB DEVELOPMENT
+-GAME DEVELOPMENT
+-DATA SCIENCE
+-TESTING.
+-MOBILE APPLICATION.
+
+ELEVATION OF LANGUAGES:
+HIGH LEVEL PROGRAMMING LANGUAGE (H.L.L):
+-->It is understandable by humans (Human-Friendly language)
+-->It is written in simple English words.
+Examples : python, java, c++
+
+2. LOW LEVEL PROGRAMMING LANGUAge(L.L.L):
+-->It is understandable by machines but not by humans.
+-->It is written in binary format(0,1).
+examples : MOV 010101
+
+3. MID-LEVEL PROGRAMMING LANGUAGE:
+--> It is the combination of both high and low level langg
+ges.
+-->It is understandable by both humans and machines.
+example: C
+
+
+TRANSLATORS :
+COMPILER :It converts High-level language to low-level language.
+-->Whole code executes at a single time
+
+INTERPRETER: 
+ --> the code will be executed line by line.
+
+
+---------------------------------------------------
+Variable : It is a container used to store data.
+
+syntax : variable_name = value
+
+a =10
+
+RULES TO CREATE VARIABLES:
+we should not start with numbers/digits.
+we can start with alphabets.
+we cannot use any special characters except UNDERSCORE(_)
+we should not use keywords as variables.
+
+a=10 
+1a=20
+_=60
+if =20
+a2=8
+&5=90
+---------------------------------------------------
+
+KEYWORDS : 
+-->These are "Reserved words" or "pre-defined words."
+-->we can only access the functionality, but cannot modify them.
+-->We have 35 keywords in python.
+
+To get them:
+import keyword
+print(keyword.kwlist)
+
+There are 3 special keywords :
+True, False, None
+-->They start with capital letters.
+--> we can assign them as values to the variables.
+
+False True
+None
+20
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+35
+
+--------------------------------------------------------------
+IDENTIFIERS: 
+-->These are the names given by the programmer to create variable, function name, classes, objects, methods.
+
+-------------------------------------------------------------------
+DATATYPES IN PYTHON:
+
+DATATYPE :
+data : rawfact 
+-->"Vaishnavi", 67, dob
+-->Processing of rawfacts is known as information.
+-->It is used to specify the type of data need to be stored in a variable.
+
+DATATYPES IN PYTHON :
+1.PRIMITIVE datatypes (SINGLE VALUED DATATYPES)
+2. NON-PRIMITIVE DATATYPES(MULTI VALUED DATATYPES)
+
+1.PRIMITIVE datatypes (SINGLE VALUED DATATYPES):
+-->It is used to store single value in a variable.
+1. integer
+2. float
+3. boolean
+4. complex
+5. None
+
+1. integer: 
+--> It consists of numbers from -ve Infinity to +ve infinity including zero.
+examples : age, temperature, price,phn no, serial number.
+
+examples :
+number = 10
+temperature = -4
+age = 23
+To get default value :
+-->datatype_name()
+--> int() --> 0
+To get the datatype of a variable
+--> type(var_name/value)
+To get the address of a variable.
+--> id(var_name/value)
+
+2. FLOAT : 
+--> It consists of numbers from +ve infinity to -ve infinity including zero with DECIMAL POINT.
+
+examples : height, weight, bank balance, marks, CGPA, percentage, eye_sight.
+
+->height = 6.2
+->weight = 70.5
+->salary = 40000.00
+--> The default value for float is 0.0
+
+
+3. Boolen :
+--> It consists of TRUE and FALSE.
+--> True represents 1
+--> False represents 0
+login = True
+register = False
+--> The default for Boolean is False
+--> to get datatype of a variable --> bool()
+
+
+4 COMPLEX :
+--> These are the combination of real and imaginary part.
+example : 5+6j
+--> 5: real part
+--> 6: imaginary part
+--> j: imaginary unit -- 
+--> python accepts only j or J for complex numbers.
+-->Real is not mandatory but imaginary part is important.
+--> default value is 0j.
+examples : mathematical equations, scientific calculations.
+--> complex() to get the default value.
+
+5. None :
+--> It is used for future purpose.
+a = None
+a = 67
+--> it creates space in the memory.
+
+Variable Intitialization : 
+--> assigning a value to the variable.
+ex : a=10
+
+Variable Reinitialization:
+--> assigning a new value to the already declared variable.
+
+
+-----------------------------------------------------------------------
+print() 
+--> It is used to display the output.
+--> It is a pre-defined function.
+
+syntax : print(data(s), sep=" ",end ="\n")
+
+
+TASK:
+
+10 ** 20 ** --> print(10,20,sep=" ** ", end= " ** -->")
+10+20=30  --> print(10,20,sep="+",end="=30")
+
+------------------------------------------------------------------------------
+
+2. NON-PRIMITIVE DATATYPES (MULTI-VALUED DATATYPES):
+--> These are also known as "COLLECTION DATATYPES".
+--> These are used to store multiple values in a single variable.
+--> we have 5 types:
+1. STRING
+2. LIST
+3. TUPLE
+4. SET 
+5. DICTIONARY
+
+
+1. STRING :
+--> It is the collection of single or multiple characters enclosed between 
+single quotes('') or double quotes("") or triple quotes(''' ''').
+
+syntax : var_name = "value"
+          var_name ='value'
+         var_name = '''   
+                         .......
+                    '''  
+properties of string :
+--> String is immutable datatype. 
+--> string is ordered collection.
+--> String supports indexing. 
+
+Indexing : providing sub-addresses to the each charater or element in a collection.
+
+2. LIST :
+--> It is the collection of HOMOGENOUS(same datatype) or HETEROGENOUS (Different datatypes)elemets enclosed between square brackets[] and elements are separated with comma(,).
+
+syntax : var_name = [ ele1,ele2,....,ele-n]
+         a=[20,30,50]
+         l=["hello",20,60.89,True, 4+6j]
+
+properties :
+--> List is mutable datatype.
+--> List is ordered collection.
+--> It supports indexing.
+-->default value for string is ''.
+
+
+3. TUPLE:
+--> It is the collection of homogenous and heterogenous elements enclosed with or without paranthesis and elements are separated by comma(,).
+
+syntax : var_name = (ele1,ele2,...ele-n)
+         var_name = ele1,el2,..ele-n
+examples : t=(34,"hello",False,90.8)
+           t = 34,"hello",False,90.8
+
+properties of tuple :
+-->Tuple is immutable datatype.
+-->Tuple is ordered collection.
+-->It supports indexing.
+-->Tuple will allow duplicate values.
+-->tuples are faster than lists.
